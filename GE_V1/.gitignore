@@ -1,0 +1,48 @@
+# Unreal Engine (project root)
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+DerivedDataCache/
+.vscode/
+.vs/
+*.VC.db
+*.VC.opendb
+*.suo
+*.user
+*.opensdf
+*.sdf
+*.sqlite
+*.ipdb
+*.iobj
+
+# Crash & logs (these are what you're seeing: .bin/.ini/.log in Saved/Crashes)
+Saved/Logs/
+Saved/Crashes/
+**/*.dmp
+**/*.mdmp
+**/*CrashContext*.xml
+**/*CrashReport*.log
+**/*.bin
+
+# Build artifacts & packaged output
+Build/Android/*
+Build/IOS/*
+Build/Windows/*
+!Build/**/README*  # keep docs if any
+Build/Receipts/
+Saved/StagedBuilds/
+Saved/Cooked/
+
+# Platform IDE files
+*.xcodeproj
+*.xcworkspace
+*.xcuserdata/
+*.idea/
+*.sln
+*.sln.DotSettings
+
+# Plugins: ignore their builds too
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+Plugins/*/Saved/
