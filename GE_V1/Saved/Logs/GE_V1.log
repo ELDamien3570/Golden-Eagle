@@ -1284,3 +1284,343 @@ To disable this warning set CommonUI.Debug.CheckGameViewportClientValid=0 under 
 [2025.08.23-13.30.17:604][229]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
 [2025.08.23-13.30.17:644][230]LogPlayLevel: Display: Destroying online subsystem :Context_1
 [2025.08.23-13.31.28:255][498]LogDerivedDataCache: ../../../Engine/DerivedDataCache: Maintenance finished in +00:00:00.001 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.08.23-13.35.21:286][196]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 347.689697
+[2025.08.23-13.35.22:286][199]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.23-13.35.22:286][199]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 348.356110, Update Interval: 302.175354
+[2025.08.23-13.35.40:014][563]LogContentBrowser: Attempting asset rename: LEVEL_MainMenu -> Lvl_MainMenu
+[2025.08.23-13.35.41:352][563]LogSlate: Window 'Message' being destroyed
+[2025.08.23-13.35.41:358][563]Message dialog closed, result: Ok, title: Message, text: Source code, config INI, and text files may need Find/Replace for:
+
+
+LEVEL_MainMenu
+
+Otherwise assets can be missing from cooked builds. Continue with rename?
+[2025.08.23-13.35.41:491][563]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.23-13.35.41:634][563]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2025.08.23-13.35.45:736][563]LogSavePackage: Moving output files for package: /Game/GE/Maps/Levels/Lvl_MainMenu
+[2025.08.23-13.35.45:736][563]LogSavePackage: Moving '../../../../../Users/Damien/Documents/GitHub/Golden-Eagle/GE_V1/Saved/Lvl_MainMenu28D98B8B4F836E5E978BBE99206BCF9D.tmp' to '../../../../../Users/Damien/Documents/GitHub/Golden-Eagle/GE_V1/Content/GE/Maps/Levels/Lvl_MainMenu.umap'
+[2025.08.23-13.35.45:805][563]LogFileHelpers: Saving map 'Lvl_MainMenu' took 4.305
+[2025.08.23-13.35.45:806][563]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/GE/Maps/Levels/LEVEL_MainMenu] ([5] browsable assets)...
+[2025.08.23-13.35.45:806][563]OBJ SavePackage: Finished generating thumbnails for package [/Game/GE/Maps/Levels/LEVEL_MainMenu]
+[2025.08.23-13.35.45:806][563]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GE/Maps/Levels/LEVEL_MainMenu" FILE="../../../../../Users/Damien/Documents/GitHub/Golden-Eagle/GE_V1/Content/GE/Maps/Levels/LEVEL_MainMenu.umap" SILENT=true
+[2025.08.23-13.35.45:808][563]LogSavePackage: Moving output files for package: /Game/GE/Maps/Levels/LEVEL_MainMenu
+[2025.08.23-13.35.45:808][563]LogSavePackage: Moving '../../../../../Users/Damien/Documents/GitHub/Golden-Eagle/GE_V1/Saved/LEVEL_MainMenu5DCFD50B473F58B579CA79BC60A92B6B.tmp' to '../../../../../Users/Damien/Documents/GitHub/Golden-Eagle/GE_V1/Content/GE/Maps/Levels/LEVEL_MainMenu.umap'
+[2025.08.23-13.35.45:813][563]LogFileHelpers: InternalPromptForCheckoutAndSave took 4.32 sec
+[2025.08.23-13.35.45:890][563]LogContentValidation: Display: Starting to validate 4 assets
+[2025.08.23-13.35.45:890][563]LogContentValidation: Enabled validators:
+[2025.08.23-13.35.45:891][563]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.23-13.35.45:891][563]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.23-13.35.45:891][563]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.23-13.35.45:891][563]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.23-13.35.45:891][563]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.23-13.35.45:891][563]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.23-13.35.45:893][563]AssetCheck: /Game/GE/Maps/Levels/Lvl_MainMenu Validating asset
+[2025.08.23-13.35.45:893][563]AssetCheck: /Game/GE/Maps/Levels/LEVEL_MainMenu Validating asset
+[2025.08.23-13.35.45:893][563]AssetCheck: /Game/GE/Maps/Levels/LEVEL_MainMenu Validating asset
+[2025.08.23-13.35.45:893][563]AssetCheck: /Game/GE/Maps/Levels/LEVEL_MainMenu Validating asset
+[2025.08.23-13.35.45:946][563]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../Users/Damien/Documents/GitHub/Golden-Eagle/GE_V1/Saved/SourceControl/UncontrolledChangelists.json
+[2025.08.23-13.35.46:332][577]LogPSOHitching: Encountered 500 PSO creation hitches so far (211 graphics, 289 compute). 0 of them were precached.
+[2025.08.23-13.35.52:053][ 14]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.08.23-13.35.52:066][ 14]LogContentBrowser: Creating deferred item: NewFolder
+[2025.08.23-13.35.52:083][ 15]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.08.23-13.35.53:320][ 93]LogContentBrowser: Attempting asset rename: NewFolder -> Custom
+[2025.08.23-13.35.53:321][ 93]LogContentBrowser: End creating deferred item NewFolder
+[2025.08.23-13.36.04:948][269]LogStreaming: Display: FlushAsyncLoading(403): 1 QueuedPackages, 0 AsyncPackages
+[2025.08.23-13.36.05:074][269]LogAssetTools: Warning: Failed to import 'C:\Users\Damien\Documents\GitHub\Golden-Eagle-Assets\UI\Buttons\Button1/blend_Button1.blend1'. Unknown extension 'blend1'.
+[2025.08.23-13.36.05:087][269]LogAssetTools: Warning: Failed to import 'C:\Users\Damien\Documents\GitHub\Golden-Eagle-Assets\UI\Buttons\Button1/blend_Button1_Clicked.blend'. Unknown extension 'blend'.
+[2025.08.23-13.36.05:102][269]LogAssetTools: Warning: Failed to import 'C:\Users\Damien\Documents\GitHub\Golden-Eagle-Assets\UI\Buttons\Button1/blend_Button1_Clicked.blend1'. Unknown extension 'blend1'.
+[2025.08.23-13.36.05:115][269]LogAssetTools: Warning: Failed to import 'C:\Users\Damien\Documents\GitHub\Golden-Eagle-Assets\UI\Buttons\Button1/blend_Button1_Default.blend'. Unknown extension 'blend'.
+[2025.08.23-13.36.05:171][269]LogInterchangeEngine: [Pending] Importing
+[2025.08.23-13.36.05:171][269]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/Damien/Documents/GitHub/Golden-Eagle-Assets/UI/Buttons/Button1/png_button1_Clicked.png]
+[2025.08.23-13.36.05:173][269]LogInterchangeEngine: [Pending] Importing -  (2)
+[2025.08.23-13.36.05:173][269]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/Damien/Documents/GitHub/Golden-Eagle-Assets/UI/Buttons/Button1/png_button1_Default.png]
+[2025.08.23-13.36.05:738][271]LogStreaming: Display: FlushAsyncLoading(437): 1 QueuedPackages, 0 AsyncPackages
+[2025.08.23-13.36.05:743][272]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.08.23-13.36.05:743][272]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.08.23-13.36.06:293][273]LogInterchangeEngine: Display: Interchange import completed [C:/Users/Damien/Docu...s/UI/Buttons/Button1/png_button1_Clicked.png]
+[2025.08.23-13.36.06:293][273]LogInterchangeEngine: [Pending] Importing -  (1)
+[2025.08.23-13.36.06:293][273]LogInterchangeEngine: Display: Interchange import completed [C:/Users/Damien/Docu...s/UI/Buttons/Button1/png_button1_Default.png]
+[2025.08.23-13.36.06:293][273]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2025.08.23-13.36.06:293][273]LogInterchangeEngine: [Success] Import Done
+[2025.08.23-13.36.16:416][810]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/GE/UI/Widgets/UI_Generic_Button.UI_Generic_Button
+[2025.08.23-13.36.16:418][810]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_0
+[2025.08.23-13.36.16:425][810]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_1
+[2025.08.23-13.36.16:437][810]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2025.08.23-13.36.16:595][810]LogStreaming: Display: FlushAsyncLoading(439): 1 QueuedPackages, 0 AsyncPackages
+[2025.08.23-13.36.18:764][810]LogSlate: Took 0.000184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2025.08.23-13.36.18:781][810]LogSlate: Took 0.001128 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2025.08.23-13.36.35:111][ 92]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.23-13.36.35:141][ 92]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GE/UI/Widgets/UI_Generic_Button] ([2] browsable assets)...
+[2025.08.23-13.36.35:141][ 92]OBJ SavePackage: Finished generating thumbnails for package [/Game/GE/UI/Widgets/UI_Generic_Button]
+[2025.08.23-13.36.35:141][ 92]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GE/UI/Widgets/UI_Generic_Button" FILE="../../../../../Users/Damien/Documents/GitHub/Golden-Eagle/GE_V1/Content/GE/UI/Widgets/UI_Generic_Button.uasset" SILENT=true
+[2025.08.23-13.36.35:147][ 92]LogSavePackage: Moving output files for package: /Game/GE/UI/Widgets/UI_Generic_Button
+[2025.08.23-13.36.35:148][ 92]LogSavePackage: Moving '../../../../../Users/Damien/Documents/GitHub/Golden-Eagle/GE_V1/Saved/UI_Generic_Button5884BA794D6BFF55DD91CC86E0201885.tmp' to '../../../../../Users/Damien/Documents/GitHub/Golden-Eagle/GE_V1/Content/GE/UI/Widgets/UI_Generic_Button.uasset'
+[2025.08.23-13.36.35:156][ 92]LogFileHelpers: InternalPromptForCheckoutAndSave took 46.219 ms (total: 4.36 sec)
+[2025.08.23-13.36.35:188][ 92]LogContentValidation: Display: Starting to validate 1 assets
+[2025.08.23-13.36.35:188][ 92]LogContentValidation: Enabled validators:
+[2025.08.23-13.36.35:188][ 92]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.23-13.36.35:188][ 92]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.23-13.36.35:188][ 92]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.23-13.36.35:188][ 92]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.23-13.36.35:188][ 92]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.23-13.36.35:188][ 92]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.23-13.36.35:189][ 92]AssetCheck: /Game/GE/UI/Widgets/UI_Generic_Button Validating asset
+[2025.08.23-13.36.40:771][411]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/GE/UI/Styling/STYLE_Main_Menu_Button.STYLE_Main_Menu_Button
+[2025.08.23-13.36.40:771][411]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_3
+[2025.08.23-13.37.07:098][738]LogSlate: Window 'Color Picker' being destroyed
+[2025.08.23-13.37.13:645][ 45]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2025.08.23-13.37.48:659][588]LogEditorTransaction: Undo Edit Top
+[2025.08.23-13.39.09:013][406]LogSlate: FontCache flush requested. Reason: Large atlases out of space; 2/1 Textures; frames since last flush: 18423381513198252071
+[2025.08.23-13.39.09:013][406]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.23-13.39.09:019][407]LogSlate: Took 0.000202 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.08.23-13.39.09:022][407]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2025.08.23-13.39.09:023][407]LogSlate: Took 0.000091 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2025.08.23-13.39.09:027][407]LogSlate: Took 0.000119 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2025.08.23-13.39.09:032][407]LogSlate: Took 0.000125 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2025.08.23-13.39.09:033][407]LogSlate: Took 0.000108 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2025.08.23-13.39.11:621][590]LogSlate: FontCache flush requested. Reason: Large atlases out of space; 2/1 Textures; frames since last flush: 184
+[2025.08.23-13.39.11:621][590]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.23-13.39.11:626][591]LogSlate: Took 0.000156 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.08.23-13.39.11:629][591]LogSlate: Took 0.000094 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2025.08.23-13.39.11:629][591]LogSlate: Took 0.000079 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2025.08.23-13.39.11:633][591]LogSlate: Took 0.000093 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2025.08.23-13.39.11:639][591]LogSlate: Took 0.000095 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2025.08.23-13.39.11:639][591]LogSlate: Took 0.000084 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2025.08.23-13.39.17:339][903]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.23-13.39.17:372][903]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/GE/UI/Widgets/UI_Generic_Button] ([2] browsable assets)...
+[2025.08.23-13.39.17:375][903]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/GE/UI/Widgets/UI_Generic_Button.UI_Generic_Button]
+[2025.08.23-13.39.17:375][903]OBJ SavePackage: Finished generating thumbnails for package [/Game/GE/UI/Widgets/UI_Generic_Button]
+[2025.08.23-13.39.17:375][903]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GE/UI/Widgets/UI_Generic_Button" FILE="../../../../../Users/Damien/Documents/GitHub/Golden-Eagle/GE_V1/Content/GE/UI/Widgets/UI_Generic_Button.uasset" SILENT=true
+[2025.08.23-13.39.17:388][903]LogSavePackage: Moving output files for package: /Game/GE/UI/Widgets/UI_Generic_Button
+[2025.08.23-13.39.17:388][903]LogSavePackage: Moving '../../../../../Users/Damien/Documents/GitHub/Golden-Eagle/GE_V1/Saved/UI_Generic_Button9CEE61084047227AC3E97285700B3CB7.tmp' to '../../../../../Users/Damien/Documents/GitHub/Golden-Eagle/GE_V1/Content/GE/UI/Widgets/UI_Generic_Button.uasset'
+[2025.08.23-13.39.17:398][903]LogFileHelpers: InternalPromptForCheckoutAndSave took 58.715 ms (total: 4.42 sec)
+[2025.08.23-13.39.17:425][903]LogContentValidation: Display: Starting to validate 1 assets
+[2025.08.23-13.39.17:425][903]LogContentValidation: Enabled validators:
+[2025.08.23-13.39.17:425][903]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.23-13.39.17:425][903]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.23-13.39.17:425][903]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.23-13.39.17:425][903]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.23-13.39.17:425][903]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.23-13.39.17:425][903]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.23-13.39.17:425][903]AssetCheck: /Game/GE/UI/Widgets/UI_Generic_Button Validating asset
+[2025.08.23-13.39.32:483][171]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\Users\Damien\Downloads\Cinzel_Decorative,Jersey_15,Young_Serif/Cinzel_Decorative/CinzelDecorative-Black.ttf)
+[2025.08.23-13.39.34:144][171]LogSlate: Window 'Font Face Import Options' being destroyed
+[2025.08.23-13.39.34:150][171]Message dialog closed, result: YesAll, title: Font Face Import Options, text: Would you like to create a new Font asset using the imported Font Face as its default font?
+[2025.08.23-13.39.34:152][171]LogSlate: FontCache flush requested. Reason: UFontFace::PostEditChangeProperty
+[2025.08.23-13.39.34:165][171]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\Users\Damien\Downloads\Cinzel_Decorative,Jersey_15,Young_Serif/Cinzel_Decorative/CinzelDecorative-Bold.ttf)
+[2025.08.23-13.39.34:170][171]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\Users\Damien\Downloads\Cinzel_Decorative,Jersey_15,Young_Serif/Cinzel_Decorative/CinzelDecorative-Regular.ttf)
+[2025.08.23-13.39.34:187][171]LogAssetTools: Warning: Failed to import 'C:\Users\Damien\Downloads\Cinzel_Decorative,Jersey_15,Young_Serif/Cinzel_Decorative/OFL.txt'. Unknown extension 'txt'.
+[2025.08.23-13.39.34:188][171]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\Users\Damien\Downloads\Cinzel_Decorative,Jersey_15,Young_Serif/Jersey_15/Jersey15-Regular.ttf)
+[2025.08.23-13.39.34:200][171]LogAssetTools: Warning: Failed to import 'C:\Users\Damien\Downloads\Cinzel_Decorative,Jersey_15,Young_Serif/Jersey_15/OFL.txt'. Unknown extension 'txt'.
+[2025.08.23-13.39.34:213][171]LogAssetTools: Warning: Failed to import 'C:\Users\Damien\Downloads\Cinzel_Decorative,Jersey_15,Young_Serif/Young_Serif/OFL.txt'. Unknown extension 'txt'.
+[2025.08.23-13.39.34:215][171]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\Users\Damien\Downloads\Cinzel_Decorative,Jersey_15,Young_Serif/Young_Serif/YoungSerif-Regular.ttf)
+[2025.08.23-13.39.34:323][171]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.23-13.39.34:336][172]LogSlate: Took 0.000178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.08.23-13.39.34:357][172]LogSlate: Took 0.000110 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2025.08.23-13.39.34:357][172]LogSlate: Took 0.000084 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2025.08.23-13.39.34:362][172]LogSlate: Took 0.000096 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2025.08.23-13.39.34:367][172]LogSlate: Took 0.000234 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2025.08.23-13.39.34:367][172]LogSlate: Took 0.000104 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2025.08.23-13.39.42:321][457]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/GE/UI/Styling/STYLE_Main_Menu_Title_Text.STYLE_Main_Menu_Title_Text
+[2025.08.23-13.39.42:321][457]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_5
+[2025.08.23-13.39.44:390][525]LogStreaming: Display: FlushAsyncLoading(610): 1 QueuedPackages, 0 AsyncPackages
+[2025.08.23-13.39.49:659][827]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.23-13.39.49:691][827]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/GE/UI/Styling/STYLE_Main_Menu_Title_Text] ([2] browsable assets)...
+[2025.08.23-13.39.49:691][827]OBJ SavePackage: Finished generating thumbnails for package [/Game/GE/UI/Styling/STYLE_Main_Menu_Title_Text]
+[2025.08.23-13.39.49:693][827]LogSavePackage: Moving output files for package: /Game/GE/UI/Styling/STYLE_Main_Menu_Title_Text
+[2025.08.23-13.39.49:693][827]LogSavePackage: Moving '../../../../../Users/Damien/Documents/GitHub/Golden-Eagle/GE_V1/Saved/STYLE_Main_Menu_Title_Text323B875F436E45419067A1812A02D164.tmp' to '../../../../../Users/Damien/Documents/GitHub/Golden-Eagle/GE_V1/Content/GE/UI/Styling/STYLE_Main_Menu_Title_Text.uasset'
+[2025.08.23-13.39.49:704][827]LogFileHelpers: InternalPromptForCheckoutAndSave took 44.980 ms (total: 4.47 sec)
+[2025.08.23-13.39.49:731][827]LogContentValidation: Display: Starting to validate 1 assets
+[2025.08.23-13.39.49:731][827]LogContentValidation: Enabled validators:
+[2025.08.23-13.39.49:731][827]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.23-13.39.49:731][827]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.23-13.39.49:731][827]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.23-13.39.49:731][827]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.23-13.39.49:731][827]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.23-13.39.49:731][827]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.23-13.39.49:731][827]AssetCheck: /Game/GE/UI/Styling/STYLE_Main_Menu_Title_Text Validating asset
+[2025.08.23-13.39.51:629][912]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/GE/UI/Styling/STYLE_Main_Menu_Button_Text.STYLE_Main_Menu_Button_Text
+[2025.08.23-13.39.51:629][912]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_6
+[2025.08.23-13.40.01:179][391]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2025.08.23-13.40.02:250][442]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2025.08.23-13.40.08:262][628]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.08.23-13.40.08:279][628]LogPlayLevel: [PlayLevel] Compiling UI_Generic_Button before play...
+[2025.08.23-13.40.08:532][628]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2025.08.23-13.40.08:534][628]LogPlayLevel: PlayLevel: Blueprint regeneration took 257 ms (1 blueprints)
+[2025.08.23-13.40.08:534][628]LogPlayLevel: Creating play world package: /Game/GE/Maps/Levels/UEDPIE_0_Lvl_MainMenu
+[2025.08.23-13.40.09:405][628]LogPlayLevel: PIE: StaticDuplicateObject took: (0.870822s)
+[2025.08.23-13.40.09:405][628]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GE/Maps/Levels/Lvl_MainMenu.Lvl_MainMenu to /Game/GE/Maps/Levels/UEDPIE_0_Lvl_MainMenu.Lvl_MainMenu (0.870885s)
+[2025.08.23-13.40.09:438][628]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2025.08.23-13.40.09:439][628]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_MainMenu
+[2025.08.23-13.40.09:441][628]LogPlayLevel: PIE: World Init took: (0.001696s)
+[2025.08.23-13.40.09:442][628]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2025.08.23-13.40.09:442][628]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.08.23-13.40.09:442][628]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.08.23-13.40.09:442][628]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.08.23-13.40.09:442][628]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.08.23-13.40.09:442][628]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.08.23-13.40.09:442][628]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.08.23-13.40.09:442][628]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.08.23-13.40.09:442][628]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.08.23-13.40.09:442][628]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.08.23-13.40.09:442][628]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.08.23-13.40.09:442][628]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.08.23-13.40.09:444][628]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.08.23-13.40.09:476][628]LogAudioMixer: Display: Using Audio Hardware Device Line Out 1/2 (4- IK Multimedia AXE IO)
+[2025.08.23-13.40.09:476][628]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.08.23-13.40.09:476][628]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.08.23-13.40.09:476][628]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.08.23-13.40.09:476][628]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2025.08.23-13.40.09:476][628]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2025.08.23-13.40.09:479][628]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2025.08.23-13.40.09:479][628]LogInit: FAudioDevice initialized with ID 3.
+[2025.08.23-13.40.09:479][628]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2025.08.23-13.40.09:479][628]LogAudio: Display: Audio Device (ID: 3) registered with world 'Lvl_MainMenu'.
+[2025.08.23-13.40.09:479][628]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2025.08.23-13.40.09:479][628]LogUIActionRouter: Display: Found 0 derived classes when attemping to create action router (CommonUIActionRouterBase)
+[2025.08.23-13.40.09:479][628]LogUIActionRouter: Error: Using CommonUI without a CommonGameViewportClient derived game viewport client. CommonUI Input routing will not function correctly.
+To disable this warning set CommonUI.Debug.CheckGameViewportClientValid=0 under [SystemSettings] in your project's DefaultEngine.ini.
+[2025.08.23-13.40.09:483][628]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.08.23-13.40.09:792][628]LogWorld: Bringing World /Game/GE/Maps/Levels/UEDPIE_0_Lvl_MainMenu.Lvl_MainMenu up for play (max tick rate 0) at 2025.08.23-09.40.09
+[2025.08.23-13.40.09:805][628]LogWorld: Bringing up level for play took: 0.323180
+[2025.08.23-13.40.09:809][628]LogOnline: OSS: Created online subsystem instance for: :Context_7
+[2025.08.23-13.40.09:814][628]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.08.23-13.40.09:814][628]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2025.08.23-13.40.09:816][628]PIE: Server logged in
+[2025.08.23-13.40.09:817][628]PIE: Play in editor total start time 1.541 seconds.
+[2025.08.23-13.40.10:150][629]LogPSOHitching: Encountered 550 PSO creation hitches so far (229 graphics, 321 compute). 0 of them were precached.
+[2025.08.23-13.40.10:840][630]LogPSOHitching: Encountered 600 PSO creation hitches so far (242 graphics, 358 compute). 0 of them were precached.
+[2025.08.23-13.40.28:082][845]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 654.481628
+[2025.08.23-13.40.28:197][853]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.23-13.40.28:197][853]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 654.589844, Update Interval: 338.224426
+[2025.08.23-13.40.40:989][737]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.08.23-13.40.40:989][737]LogWorld: BeginTearingDown for /Game/GE/Maps/Levels/UEDPIE_0_Lvl_MainMenu
+[2025.08.23-13.40.40:990][737]LogWorld: UWorld::CleanupWorld for Lvl_MainMenu, bSessionEnded=true, bCleanupResources=true
+[2025.08.23-13.40.41:117][737]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.23-13.40.41:128][737]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.08.23-13.40.41:140][737]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.23-13.40.41:359][737]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.08.23-13.40.41:365][737]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2025.08.23-13.40.41:365][737]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=4
+[2025.08.23-13.40.41:367][737]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=2
+[2025.08.23-13.40.41:371][737]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.08.23-13.40.41:407][737]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2025.08.23-13.40.41:482][738]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2025.08.23-13.40.48:334][242]LogContentBrowser: Deferred new asset file creation: NewWorld
+[2025.08.23-13.40.48:348][242]LogContentBrowser: Creating deferred item: NewWorld
+[2025.08.23-13.40.48:365][243]LogContentBrowser: Renaming the item being created (Deferred Item: NewWorld).
+[2025.08.23-13.40.52:958][535]LogContentBrowser: Attempting asset rename: NewWorld -> Lvl_CharacterCreation
+[2025.08.23-13.40.52:959][535]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_CharacterCreation
+[2025.08.23-13.40.52:962][535]LogContentBrowser: End creating deferred item NewWorld
+[2025.08.23-13.40.55:991][730]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2025.08.23-13.40.58:400][730]LogSlate: Window 'Save Content' being destroyed
+[2025.08.23-13.40.58:411][730]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.23-13.40.58:470][730]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2025.08.23-13.40.58:474][730]LogSavePackage: Moving output files for package: /Game/GE/Maps/Levels/Lvl_CharacterCreation
+[2025.08.23-13.40.58:474][730]LogSavePackage: Moving '../../../../../Users/Damien/Documents/GitHub/Golden-Eagle/GE_V1/Saved/Lvl_CharacterCreation2AF354B54952D68A91CD08A734292C55.tmp' to '../../../../../Users/Damien/Documents/GitHub/Golden-Eagle/GE_V1/Content/GE/Maps/Levels/Lvl_CharacterCreation.umap'
+[2025.08.23-13.40.58:476][730]LogFileHelpers: Saving map 'Lvl_CharacterCreation' took 0.036
+[2025.08.23-13.40.58:476][730]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/GE/UI/UI_Assets/Cinzel_Decorative_Jersey_15_Young_Serif/Cinzel_Decorative/CinzelDecorative-Black] ([1] browsable assets)...
+[2025.08.23-13.40.58:476][730]OBJ SavePackage: Finished generating thumbnails for package [/Game/GE/UI/UI_Assets/Cinzel_Decorative_Jersey_15_Young_Serif/Cinzel_Decorative/CinzelDecorative-Black]
+[2025.08.23-13.40.58:477][730]LogSavePackage: Moving output files for package: /Game/GE/UI/UI_Assets/Cinzel_Decorative_Jersey_15_Young_Serif/Cinzel_Decorative/CinzelDecorative-Black
+[2025.08.23-13.40.58:477][730]LogSavePackage: Moving '../../../../../Users/Damien/Documents/GitHub/Golden-Eagle/GE_V1/Saved/CinzelDecorative-Black27E734DE43504D7EDDF612A04063EC3A.tmp' to '../../../../../Users/Damien/Documents/GitHub/Golden-Eagle/GE_V1/Content/GE/UI/UI_Assets/Cinzel_Decorative_Jersey_15_Young_Serif/Cinzel_Decorative/CinzelDecorative-Black.uasset'
+[2025.08.23-13.40.58:478][730]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GE/UI/UI_Assets/Cinzel_Decorative_Jersey_15_Young_Serif/Cinzel_Decorative/CinzelDecorative-Black_Font] ([1] browsable assets)...
+[2025.08.23-13.40.58:480][730]OBJ SavePackage:     Rendered thumbnail for [Font /Game/GE/UI/UI_Assets/Cinzel_Decorative_Jersey_15_Young_Serif/Cinzel_Decorative/CinzelDecorative-Black_Font.CinzelDecorative-Black_Font]
+[2025.08.23-13.40.58:480][730]OBJ SavePackage: Finished generating thumbnails for package [/Game/GE/UI/UI_Assets/Cinzel_Decorative_Jersey_15_Young_Serif/Cinzel_Decorative/CinzelDecorative-Black_Font]
+[2025.08.23-13.40.58:482][730]LogSavePackage: Moving output files for package: /Game/GE/UI/UI_Assets/Cinzel_Decorative_Jersey_15_Young_Serif/Cinzel_Decorative/CinzelDecorative-Black_Font
+[2025.08.23-13.40.58:482][730]LogSavePackage: Moving '../../../../../Users/Damien/Documents/GitHub/Golden-Eagle/GE_V1/Saved/CinzelDecorative-Black_Font7AAB432645F9417A86DBE8A5F12D2542.tmp' to '../../../../../Users/Damien/Documents/GitHub/Golden-Eagle/GE_V1/Content/GE/UI/UI_Assets/Cinzel_Decorative_Jersey_15_Young_Serif/Cinzel_Decorative/CinzelDecorative-Black_Font.uasset'
+[2025.08.23-13.40.58:483][730]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/GE/UI/UI_Assets/Cinzel_Decorative_Jersey_15_Young_Serif/Cinzel_Decorative/CinzelDecorative-Bold] ([1] browsable assets)...
+[2025.08.23-13.40.58:483][730]OBJ SavePackage: Finished generating thumbnails for package [/Game/GE/UI/UI_Assets/Cinzel_Decorative_Jersey_15_Young_Serif/Cinzel_Decorative/CinzelDecorative-Bold]
+[2025.08.23-13.40.58:484][730]LogSavePackage: Moving output files for package: /Game/GE/UI/UI_Assets/Cinzel_Decorative_Jersey_15_Young_Serif/Cinzel_Decorative/CinzelDecorative-Bold
+[2025.08.23-13.40.58:484][730]LogSavePackage: Moving '../../../../../Users/Damien/Documents/GitHub/Golden-Eagle/GE_V1/Saved/CinzelDecorative-Bold8C1B15834C734C7AB70E4CB0EA495CEA.tmp' to '../../../../../Users/Damien/Documents/GitHub/Golden-Eagle/GE_V1/Content/GE/UI/UI_Assets/Cinzel_Decorative_Jersey_15_Young_Serif/Cinzel_Decorative/CinzelDecorative-Bold.uasset'
+[2025.08.23-13.40.58:487][730]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GE/UI/UI_Assets/Cinzel_Decorative_Jersey_15_Young_Serif/Cinzel_Decorative/CinzelDecorative-Bold_Font] ([1] browsable assets)...
+[2025.08.23-13.40.58:488][730]OBJ SavePackage:     Rendered thumbnail for [Font /Game/GE/UI/UI_Assets/Cinzel_Decorative_Jersey_15_Young_Serif/Cinzel_Decorative/CinzelDecorative-Bold_Font.CinzelDecorative-Bold_Font]
+[2025.08.23-13.40.58:488][730]OBJ SavePackage: Finished generating thumbnails for package [/Game/GE/UI/UI_Assets/Cinzel_Decorative_Jersey_15_Young_Serif/Cinzel_Decorative/CinzelDecorative-Bold_Font]
+[2025.08.23-13.40.58:489][730]LogSavePackage: Moving output files for package: /Game/GE/UI/UI_Assets/Cinzel_Decorative_Jersey_15_Young_Serif/Cinzel_Decorative/CinzelDecorative-Bold_Font
+[2025.08.23-13.40.58:489][730]LogSavePackage: Moving '../../../../../Users/Damien/Documents/GitHub/Golden-Eagle/GE_V1/Saved/CinzelDecorative-Bold_Font869C88E442DF7883DBB5509EBBD09916.tmp' to '../../../../../Users/Damien/Documents/GitHub/Golden-Eagle/GE_V1/Content/GE/UI/UI_Assets/Cinzel_Decorative_Jersey_15_Young_Serif/Cinzel_Decorative/CinzelDecorative-Bold_Font.uasset'
+[2025.08.23-13.40.58:491][730]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/GE/UI/UI_Assets/Cinzel_Decorative_Jersey_15_Young_Serif/Cinzel_Decorative/CinzelDecorative-Regular] ([1] browsable assets)...
+[2025.08.23-13.40.58:491][730]OBJ SavePackage: Finished generating thumbnails for package [/Game/GE/UI/UI_Assets/Cinzel_Decorative_Jersey_15_Young_Serif/Cinzel_Decorative/CinzelDecorative-Regular]
+[2025.08.23-13.40.58:492][730]LogSavePackage: Moving output files for package: /Game/GE/UI/UI_Assets/Cinzel_Decorative_Jersey_15_Young_Serif/Cinzel_Decorative/CinzelDecorative-Regular
+[2025.08.23-13.40.58:492][730]LogSavePackage: Moving '../../../../../Users/Damien/Documents/GitHub/Golden-Eagle/GE_V1/Saved/CinzelDecorative-Regular3F71727B461D4BBAC455989FA4533444.tmp' to '../../../../../Users/Damien/Documents/GitHub/Golden-Eagle/GE_V1/Content/GE/UI/UI_Assets/Cinzel_Decorative_Jersey_15_Young_Serif/Cinzel_Decorative/CinzelDecorative-Regular.uasset'
+[2025.08.23-13.40.58:493][730]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GE/UI/UI_Assets/Cinzel_Decorative_Jersey_15_Young_Serif/Cinzel_Decorative/CinzelDecorative-Regular_Font] ([1] browsable assets)...
+[2025.08.23-13.40.58:495][730]OBJ SavePackage:     Rendered thumbnail for [Font /Game/GE/UI/UI_Assets/Cinzel_Decorative_Jersey_15_Young_Serif/Cinzel_Decorative/CinzelDecorative-Regular_Font.CinzelDecorative-Regular_Font]
+[2025.08.23-13.40.58:495][730]OBJ SavePackage: Finished generating thumbnails for package [/Game/GE/UI/UI_Assets/Cinzel_Decorative_Jersey_15_Young_Serif/Cinzel_Decorative/CinzelDecorative-Regular_Font]
+[2025.08.23-13.40.58:496][730]LogSavePackage: Moving output files for package: /Game/GE/UI/UI_Assets/Cinzel_Decorative_Jersey_15_Young_Serif/Cinzel_Decorative/CinzelDecorative-Regular_Font
+[2025.08.23-13.40.58:496][730]LogSavePackage: Moving '../../../../../Users/Damien/Documents/GitHub/Golden-Eagle/GE_V1/Saved/CinzelDecorative-Regular_FontDB5EC9804B7A461634DE20AEF163D8C0.tmp' to '../../../../../Users/Damien/Documents/GitHub/Golden-Eagle/GE_V1/Content/GE/UI/UI_Assets/Cinzel_Decorative_Jersey_15_Young_Serif/Cinzel_Decorative/CinzelDecorative-Regular_Font.uasset'
+[2025.08.23-13.40.58:498][730]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/GE/UI/UI_Assets/Cinzel_Decorative_Jersey_15_Young_Serif/Jersey_15/Jersey15-Regular] ([1] browsable assets)...
+[2025.08.23-13.40.58:498][730]OBJ SavePackage: Finished generating thumbnails for package [/Game/GE/UI/UI_Assets/Cinzel_Decorative_Jersey_15_Young_Serif/Jersey_15/Jersey15-Regular]
+[2025.08.23-13.40.58:499][730]LogSavePackage: Moving output files for package: /Game/GE/UI/UI_Assets/Cinzel_Decorative_Jersey_15_Young_Serif/Jersey_15/Jersey15-Regular
+[2025.08.23-13.40.58:499][730]LogSavePackage: Moving '../../../../../Users/Damien/Documents/GitHub/Golden-Eagle/GE_V1/Saved/Jersey15-Regular8487A16A49813A3453F49EB2AFDD3C2B.tmp' to '../../../../../Users/Damien/Documents/GitHub/Golden-Eagle/GE_V1/Content/GE/UI/UI_Assets/Cinzel_Decorative_Jersey_15_Young_Serif/Jersey_15/Jersey15-Regular.uasset'
+[2025.08.23-13.40.58:500][730]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GE/UI/UI_Assets/Cinzel_Decorative_Jersey_15_Young_Serif/Jersey_15/Jersey15-Regular_Font] ([1] browsable assets)...
+[2025.08.23-13.40.58:503][730]OBJ SavePackage:     Rendered thumbnail for [Font /Game/GE/UI/UI_Assets/Cinzel_Decorative_Jersey_15_Young_Serif/Jersey_15/Jersey15-Regular_Font.Jersey15-Regular_Font]
+[2025.08.23-13.40.58:503][730]OBJ SavePackage: Finished generating thumbnails for package [/Game/GE/UI/UI_Assets/Cinzel_Decorative_Jersey_15_Young_Serif/Jersey_15/Jersey15-Regular_Font]
+[2025.08.23-13.40.58:504][730]LogSavePackage: Moving output files for package: /Game/GE/UI/UI_Assets/Cinzel_Decorative_Jersey_15_Young_Serif/Jersey_15/Jersey15-Regular_Font
+[2025.08.23-13.40.58:504][730]LogSavePackage: Moving '../../../../../Users/Damien/Documents/GitHub/Golden-Eagle/GE_V1/Saved/Jersey15-Regular_Font9ED9EAFA427FC028AD3AB285CCAADB55.tmp' to '../../../../../Users/Damien/Documents/GitHub/Golden-Eagle/GE_V1/Content/GE/UI/UI_Assets/Cinzel_Decorative_Jersey_15_Young_Serif/Jersey_15/Jersey15-Regular_Font.uasset'
+[2025.08.23-13.40.58:505][730]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/GE/UI/Styling/STYLE_Main_Menu_Button] ([2] browsable assets)...
+[2025.08.23-13.40.58:505][730]OBJ SavePackage: Finished generating thumbnails for package [/Game/GE/UI/Styling/STYLE_Main_Menu_Button]
+[2025.08.23-13.40.58:507][730]LogSavePackage: Moving output files for package: /Game/GE/UI/Styling/STYLE_Main_Menu_Button
+[2025.08.23-13.40.58:507][730]LogSavePackage: Moving '../../../../../Users/Damien/Documents/GitHub/Golden-Eagle/GE_V1/Saved/STYLE_Main_Menu_Button2C68F3BB42958703268886AD6A01E154.tmp' to '../../../../../Users/Damien/Documents/GitHub/Golden-Eagle/GE_V1/Content/GE/UI/Styling/STYLE_Main_Menu_Button.uasset'
+[2025.08.23-13.40.58:509][730]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/GE/UI/Styling/STYLE_Main_Menu_Button_Text] ([2] browsable assets)...
+[2025.08.23-13.40.58:509][730]OBJ SavePackage: Finished generating thumbnails for package [/Game/GE/UI/Styling/STYLE_Main_Menu_Button_Text]
+[2025.08.23-13.40.58:510][730]LogSavePackage: Moving output files for package: /Game/GE/UI/Styling/STYLE_Main_Menu_Button_Text
+[2025.08.23-13.40.58:511][730]LogSavePackage: Moving '../../../../../Users/Damien/Documents/GitHub/Golden-Eagle/GE_V1/Saved/STYLE_Main_Menu_Button_TextB109CCB241D735DAC36DA3BE9A84681C.tmp' to '../../../../../Users/Damien/Documents/GitHub/Golden-Eagle/GE_V1/Content/GE/UI/Styling/STYLE_Main_Menu_Button_Text.uasset'
+[2025.08.23-13.40.58:512][730]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/GE/UI/UI_Assets/Cinzel_Decorative_Jersey_15_Young_Serif/Young_Serif/YoungSerif-Regular] ([1] browsable assets)...
+[2025.08.23-13.40.58:512][730]OBJ SavePackage: Finished generating thumbnails for package [/Game/GE/UI/UI_Assets/Cinzel_Decorative_Jersey_15_Young_Serif/Young_Serif/YoungSerif-Regular]
+[2025.08.23-13.40.58:513][730]LogSavePackage: Moving output files for package: /Game/GE/UI/UI_Assets/Cinzel_Decorative_Jersey_15_Young_Serif/Young_Serif/YoungSerif-Regular
+[2025.08.23-13.40.58:513][730]LogSavePackage: Moving '../../../../../Users/Damien/Documents/GitHub/Golden-Eagle/GE_V1/Saved/YoungSerif-Regular36CBBA1E4B26C67933BE3FB9C48D851A.tmp' to '../../../../../Users/Damien/Documents/GitHub/Golden-Eagle/GE_V1/Content/GE/UI/UI_Assets/Cinzel_Decorative_Jersey_15_Young_Serif/Young_Serif/YoungSerif-Regular.uasset'
+[2025.08.23-13.40.58:515][730]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GE/UI/UI_Assets/Cinzel_Decorative_Jersey_15_Young_Serif/Young_Serif/YoungSerif-Regular_Font] ([1] browsable assets)...
+[2025.08.23-13.40.58:517][730]OBJ SavePackage:     Rendered thumbnail for [Font /Game/GE/UI/UI_Assets/Cinzel_Decorative_Jersey_15_Young_Serif/Young_Serif/YoungSerif-Regular_Font.YoungSerif-Regular_Font]
+[2025.08.23-13.40.58:517][730]OBJ SavePackage: Finished generating thumbnails for package [/Game/GE/UI/UI_Assets/Cinzel_Decorative_Jersey_15_Young_Serif/Young_Serif/YoungSerif-Regular_Font]
+[2025.08.23-13.40.58:518][730]LogSavePackage: Moving output files for package: /Game/GE/UI/UI_Assets/Cinzel_Decorative_Jersey_15_Young_Serif/Young_Serif/YoungSerif-Regular_Font
+[2025.08.23-13.40.58:518][730]LogSavePackage: Moving '../../../../../Users/Damien/Documents/GitHub/Golden-Eagle/GE_V1/Saved/YoungSerif-Regular_Font2EF3137C4EF6DFA0011E55BBBC212B86.tmp' to '../../../../../Users/Damien/Documents/GitHub/Golden-Eagle/GE_V1/Content/GE/UI/UI_Assets/Cinzel_Decorative_Jersey_15_Young_Serif/Young_Serif/YoungSerif-Regular_Font.uasset'
+[2025.08.23-13.40.58:520][730]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GE/UI/UI_Assets/Custom/Button1/png_button1_Clicked] ([1] browsable assets)...
+[2025.08.23-13.40.58:521][730]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/GE/UI/UI_Assets/Custom/Button1/png_button1_Clicked.png_button1_Clicked]
+[2025.08.23-13.40.58:521][730]OBJ SavePackage: Finished generating thumbnails for package [/Game/GE/UI/UI_Assets/Custom/Button1/png_button1_Clicked]
+[2025.08.23-13.40.58:524][730]LogSavePackage: Moving output files for package: /Game/GE/UI/UI_Assets/Custom/Button1/png_button1_Clicked
+[2025.08.23-13.40.58:524][730]LogSavePackage: Moving '../../../../../Users/Damien/Documents/GitHub/Golden-Eagle/GE_V1/Saved/png_button1_Clicked1584CEB443CED834A5DC0E84DB3947FD.tmp' to '../../../../../Users/Damien/Documents/GitHub/Golden-Eagle/GE_V1/Content/GE/UI/UI_Assets/Custom/Button1/png_button1_Clicked.uasset'
+[2025.08.23-13.40.58:526][730]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GE/UI/UI_Assets/Custom/Button1/png_button1_Default] ([1] browsable assets)...
+[2025.08.23-13.40.58:527][730]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/GE/UI/UI_Assets/Custom/Button1/png_button1_Default.png_button1_Default]
+[2025.08.23-13.40.58:527][730]OBJ SavePackage: Finished generating thumbnails for package [/Game/GE/UI/UI_Assets/Custom/Button1/png_button1_Default]
+[2025.08.23-13.40.58:531][730]LogSavePackage: Moving output files for package: /Game/GE/UI/UI_Assets/Custom/Button1/png_button1_Default
+[2025.08.23-13.40.58:531][730]LogSavePackage: Moving '../../../../../Users/Damien/Documents/GitHub/Golden-Eagle/GE_V1/Saved/png_button1_DefaultB161F55F45FE02D5BFA074BD1E6212B0.tmp' to '../../../../../Users/Damien/Documents/GitHub/Golden-Eagle/GE_V1/Content/GE/UI/UI_Assets/Custom/Button1/png_button1_Default.uasset'
+[2025.08.23-13.40.58:571][730]LogFileHelpers: InternalPromptForCheckoutAndSave took 159.394 ms (total: 4.63 sec)
+[2025.08.23-13.40.58:571][730]LogAssetEditorSubsystem: Opening Asset editor for World /Game/GE/Maps/Levels/Lvl_CharacterCreation.Lvl_CharacterCreation
+[2025.08.23-13.40.58:571][730]Cmd: MAP LOAD FILE="../../../../../Users/Damien/Documents/GitHub/Golden-Eagle/GE_V1/Content/GE/Maps/Levels/Lvl_CharacterCreation.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.08.23-13.40.58:833][730]LogWorld: UWorld::CleanupWorld for Lvl_MainMenu, bSessionEnded=true, bCleanupResources=true
+[2025.08.23-13.40.58:834][730]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.23-13.40.58:867][730]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.08.23-13.40.59:097][730]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2025.08.23-13.40.59:114][730]LogWorld: UWorld::CleanupWorld for Lvl_CharacterCreation, bSessionEnded=true, bCleanupResources=true
+[2025.08.23-13.40.59:114][730]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.23-13.40.59:145][730]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2025.08.23-13.40.59:177][730]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2025.08.23-13.40.59:178][730]LogStreaming: Display: FlushAsyncLoading(618): 1 QueuedPackages, 0 AsyncPackages
+[2025.08.23-13.40.59:180][730]LogAudio: Display: Audio Device (ID: 1) registered with world 'Lvl_CharacterCreation'.
+[2025.08.23-13.40.59:180][730]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_CharacterCreation
+[2025.08.23-13.40.59:192][730]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.08.23-13.40.59:225][730]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2025.08.23-13.40.59:242][730]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.08.23-13.40.59:242][730]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.052ms to complete.
+[2025.08.23-13.40.59:300][730]LogContentValidation: Display: Starting to validate 15 assets
+[2025.08.23-13.40.59:300][730]LogContentValidation: Enabled validators:
+[2025.08.23-13.40.59:300][730]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.23-13.40.59:300][730]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.23-13.40.59:300][730]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.23-13.40.59:300][730]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.23-13.40.59:300][730]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.23-13.40.59:300][730]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.23-13.40.59:300][730]AssetCheck: /Game/GE/Maps/Levels/Lvl_CharacterCreation Validating asset
+[2025.08.23-13.40.59:300][730]AssetCheck: /Game/GE/UI/UI_Assets/Cinzel_Decorative_Jersey_15_Young_Serif/Cinzel_Decorative/CinzelDecorative-Black Validating asset
+[2025.08.23-13.40.59:300][730]AssetCheck: /Game/GE/UI/UI_Assets/Cinzel_Decorative_Jersey_15_Young_Serif/Cinzel_Decorative/CinzelDecorative-Black_Font Validating asset
+[2025.08.23-13.40.59:300][730]AssetCheck: /Game/GE/UI/UI_Assets/Cinzel_Decorative_Jersey_15_Young_Serif/Cinzel_Decorative/CinzelDecorative-Bold Validating asset
+[2025.08.23-13.40.59:300][730]AssetCheck: /Game/GE/UI/UI_Assets/Cinzel_Decorative_Jersey_15_Young_Serif/Cinzel_Decorative/CinzelDecorative-Bold_Font Validating asset
+[2025.08.23-13.40.59:301][730]AssetCheck: /Game/GE/UI/UI_Assets/Cinzel_Decorative_Jersey_15_Young_Serif/Cinzel_Decorative/CinzelDecorative-Regular Validating asset
+[2025.08.23-13.40.59:301][730]AssetCheck: /Game/GE/UI/UI_Assets/Cinzel_Decorative_Jersey_15_Young_Serif/Cinzel_Decorative/CinzelDecorative-Regular_Font Validating asset
+[2025.08.23-13.40.59:301][730]AssetCheck: /Game/GE/UI/UI_Assets/Cinzel_Decorative_Jersey_15_Young_Serif/Jersey_15/Jersey15-Regular Validating asset
+[2025.08.23-13.40.59:301][730]AssetCheck: /Game/GE/UI/UI_Assets/Cinzel_Decorative_Jersey_15_Young_Serif/Jersey_15/Jersey15-Regular_Font Validating asset
+[2025.08.23-13.40.59:301][730]AssetCheck: /Game/GE/UI/Styling/STYLE_Main_Menu_Button Validating asset
+[2025.08.23-13.40.59:301][730]AssetCheck: /Game/GE/UI/Styling/STYLE_Main_Menu_Button_Text Validating asset
+[2025.08.23-13.40.59:301][730]AssetCheck: /Game/GE/UI/UI_Assets/Cinzel_Decorative_Jersey_15_Young_Serif/Young_Serif/YoungSerif-Regular Validating asset
+[2025.08.23-13.40.59:301][730]AssetCheck: /Game/GE/UI/UI_Assets/Cinzel_Decorative_Jersey_15_Young_Serif/Young_Serif/YoungSerif-Regular_Font Validating asset
+[2025.08.23-13.40.59:301][730]AssetCheck: /Game/GE/UI/UI_Assets/Custom/Button1/png_button1_Clicked Validating asset
+[2025.08.23-13.40.59:301][730]AssetCheck: /Game/GE/UI/UI_Assets/Custom/Button1/png_button1_Default Validating asset
+[2025.08.23-13.40.59:327][730]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../Users/Damien/Documents/GitHub/Golden-Eagle/GE_V1/Saved/SourceControl/UncontrolledChangelists.json
